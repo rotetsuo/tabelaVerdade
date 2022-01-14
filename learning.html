@@ -1,0 +1,256 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Tabela Verdade</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<a href="index.html" style="text-decoration: none;">
+						<h1>Tabela Verdade</h1>						
+					</a>
+					<img src="img/ucdbLogo.png">
+				</div>
+			</div>
+
+		</header>
+		<section class="sobreTV">
+			<div class="container">
+				<div class="row">
+					<div class="col-12" style="margin-bottom: 40px;">
+						<h2>Como usar?</h2>
+						<a target="_blank" href="https://www.youtube.com/watch?v=0v4jcKvbn08">
+							<img src="img/playVideo.png">
+							Ver o vídeo
+						</a>
+					</div>
+					<div class="col-12 col-md-6">
+							<p>
+							Nós, alunos da UCDB, fizemos um projeto da matéria de Matematica Discreta, onde fizemos uma calculadora digital de tabela verdade, para auxiliar todos quando for necessaria, por isso fizemos em um formato web, onde pode ser acessada em qualquer dispositivo(smartphones, tablets, computadores) com qualquer sistema, ja que fizemos um site responsivo utilizando o framework web chamado de <a href="https://getbootstrap.com/">Bootstrap.</a>
+						</p>
+						<p>
+							O Site todo, foi estruturado em HTMl5, e utilizando CSS3 para fazer sua estilização. Para fazer a calculadora realmente funcional utilizamos a linguagem de programação JavaScript.
+						</p>
+						<p>
+							Tivemos como ideia utilizar a inteligencia do javascript e converter seus valores para calcular se uma expressão é verdadeira ou falsa, abaixo explicaremos melhor.
+						</p>
+						
+					</div>
+					<div class="col-12 col-md-6">
+						<img src="img/entradaUCDB.jpg">						
+					</div>
+					<div class="col-12 col-md-6">
+						<img src="img/logica.jpg">
+					</div>
+					<div class="col-12 col-md-6">
+						<p>
+							Tabela verdade é um dispositivo utilizado no estudo da lógica matemática. Com o uso desta tabela é possível definir o valor lógico de uma proposição, isto é, saber quando uma sentença é verdadeira ou falsa.
+						</p>
+						<p>
+							Em lógica, as proposições representam pensamentos completos e indicam afirmações de fatos ou ideias.
+						</p>
+						<p>
+							Utiliza-se a tabela verdade em proposições compostas, ou seja, sentenças formadas por proposições simples, sendo que o resultado do valor lógico depende apenas do valor de cada proposição.
+						</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<p>
+							Agora que ja explicamos brevemente o que é uma tabela verdade e falamos um pouco sobre o projeto, iremos dar uma explicada rapida de como utilizar nossa calculadora.
+						</p>
+						<p>
+							Os botões com valores A,B,C e D representam os argumentos do problema, ou seja você ira utiliza-los como se fossem "π é um número racional" ou "joao come banana". Ao clicar nos botões eles irão aparecer no visor que fica no topo da calculadora.
+						</p>
+						<p>
+							Depois de adicionar algum argumento esta na hora de adicionar os conectores lógicos, que podem ser:
+						</p>
+						<ul>
+							<li>AND: .</li>
+							<li>OR: v</li>
+							<li>XOR: ⊻</li>
+							<li>NOR: ↓</li>
+							<li>NAND: ↑</li>
+							<li>Biconficional: <-|-> </li>
+						</ul>
+						<p>
+							Os botões que abrem e fecham parenteses, funcionam igual na amtematica, servem para dar ordem de preferencia.
+						</p>
+						<p>
+							O botão Limpar serve para apagar tudo e recomeçar do zero, o botçao DEL serve para apagar apenas o ultimo caractere.
+						</p>
+						<h2>O que foi feito por cada aluno?</h2>
+						<p>
+							Kevin: Idealização e desenvolvimento inicial do programa em C++ em sua maior parte, com parte das funções feitas por outros membros do grupo, além de algumas poucas funções após o transferimento do programa de C++ para javascript no meio do desenvolvimento
+						</p>
+						<p>
+							Beatriz: Pesquisa de comandos e afins úteis para o auxílio do desenvolvimento do programa, também criando algumas funções no estágio inicial do desenvolvimento em C++
+						</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<img style="height: auto;" src="img/tutorial1.png">
+					</div>
+					<div class="col-12 col-md-6">
+						<img src="img/html.jpg">
+					</div>
+					<div class="col-12 col-md-6">
+						<p>
+							Roberto: Adaptação do programa para javascript, criação da estrutura html do site, fez a primeira versão do script em javascript no qual não estava 100% funcional. Depois da primeira correção de professor Hemerson Pistori, dei uma pequena refatorada no código e mudei o desigin do site.
+						</p>
+						<p>
+							Edy: Fez a parte de entradas da tabela, além as operações especiais do programa
+						</p>
+						<p>
+							Eduardo: Responsável pela otimização do código, fazendo uma refatoração do código, o deixando 100% funcional
+						</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<h2>Explicando o código</h2>
+						<p>A estrutura visual do projeto foi desenvolvida em 3 arquivos:</p>
+						<ul>
+							<li>index.html</li>
+							<li>learning.html</li>
+							<li>table.html</li>
+						</ul>
+						<p>A estilização do visual do projeto foi desenvolvido em 1 arquivo:</p>
+						<ul>
+							<li>style.css</li>
+						</ul>
+						<p>A estruturação do código em que deixa a tabela funcional foi em 1 arquivo:</p>
+						<ul>
+							<li>script.js</li>
+						</ul>
+						
+					</div>
+					<div class="col-12 col-md-6">
+						<img src="img/javascript.jpg">
+					</div>
+					<div class="col-12">
+						<h2>Funções em Javascript</h2>
+						<p>
+							A primeira função que vemos em nosso script é a <strong>listarArgumentos()</strong> , ela é simples porem como todas as outras é crucial pro código. Ela pega a string digitada pelo usuario, por exemplo:  <strong>A.B</strong> e deixa somente os argumentos, ficando assim <strong>AB</strong> 
+						</p>
+						<img style="height: auto;" src="img/functions.png">
+					</div>
+					<div class="col-12 col-md-6">
+						<p>
+							A segunda função é a <strong>contarArgumentos()</strong>, a funcionalidade dela também  é bem simples, simplesmente chama a primeira função e conta o numero de argumentos que foram separados da string original. Utilizando esse numero depois para fazer o numero de linhas que a tabela deve ter. 
+						</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<img style="height: auto;" src="img/fn-2.png">
+					</div>
+					<div class="col-12">
+						<p>
+							A terceira função é a <strong>apresentarTabela()</strong>, essa função é o coração do script, já que ela vai montar a tabela em nossa estrutura html. Podemos ver que ela chama a função listarArgumentos() e coloca seu valor dentro de uma variavel.Utilizando-se de um loop em for ela preenche a tabela com todas suas possibilidades(true, false) em cada linha. No final desse loop ela chama a função calcularLinha(linha), que ja explicaremos em um instante. Ao final da função ela se utiliza de uma função javascript innerHTML que coloca um conteudo em uma pagina html, a função sabe exatamente onde colocar a tabela pegando uma estrutura por seu ID, no nosso caso, o ID tabelaVerdade.
+						</p>
+						<img style="height: auto;" src="img/fn-3.png">
+					</div>
+					<div class="col-12">
+						<p>
+							A proxima função que passaremos por cima é a <strong>montarTabela()</strong>, é ela que vai dizer se deve ser colocado true ou false na tabela, ela é como se fosse o que acontece por tras da função apresentarTabela().
+						</p>
+						<img style="height: auto;" src="img/fn-4.png">
+					</div>
+					<div class="col-12 col-md-4">
+						<p>
+							Agora iremos pra função <strong>registroParaInput()</strong>, ela pega a string digitada pelo usuario, no nosso exemplo: <strong> A.B </strong> e levara para a função montarTabela().
+						</p>
+					</div>
+					<div class="col-12 col-md-8">
+						<img style="height: auto;" src="img/fn-5.png">
+					</div>
+					<div class="col-12">
+						<p>
+							Agora irei explicar 3 funções bem pequenas nesse paragrafo. Primeiro iremos falar da função <strong>input(e)</strong>, ela é realmente em simples, ela vai precisa de um evento para acontecer, e pegara o valor da string digitada pelo usuario e chamara a registroParaInput().
+							A segunda função é a <strong>apagar()</strong>, ela simplesmente apaga o ultimo caractere digitado pelo usuario caso ele queira trocar algo. A terceira função dessa sessão é <strong>limpar()</strong>, ela limpa tudo digitado pelo usuario para que ele possa começar do zero.
+						</p>
+						<div class="text-center">
+							<img style="height: auto; width: auto;" src="img/fn-6.png">
+							<img style="height: auto;  width: auto;" src="img/fn-7.png">
+							<img style="height: auto;  width: auto;" src="img/fn-8.png">			
+						</div>
+				
+					</div>
+					<div class="col-12">
+						<p>
+							Uma outra função importantissima para o programa é a <strong>converterParaExpressao()</strong>, ela é grande porém bem simples, ela pega a string digitada pelo usuario e "traduz" para linguagem de maquina, ou seja, se nós utilizamos . para ser um AND, em JavaScript utilizamos &&. Então nós traduzimos cada uma das opções dadas para o usuario. Que são:
+						</p>
+						<table>
+							<tr>
+								<th>Conectivo</th>
+								<th>Símbolo</th>
+								<th>Operador lógico</th>
+							</tr>
+							<tr>
+								<td>NOT</td>
+								<td>~</td>
+								<td>!</td>
+							</tr>
+							<tr>
+								<td>AND</td>
+								<td>.</td>
+								<td>&&</td>
+							</tr>
+							<tr>
+								<td>OR</td>
+								<td>v</td>
+								<td>||</td>
+							</tr>
+							<tr>
+								<td>Bicondicional</td>
+								<td> <-|-> </td>
+								<td> == </td>
+							</tr>
+							<tr>
+								<td>XOR</td>
+								<td> ⊻ </td>
+								<td> ^ </td>
+							</tr>
+							<tr>
+								<td>NOR</td>
+								<td> ↓ </td>
+								<td> !((${valor1}) || ${valor2}) </td>
+							</tr>
+							<tr>
+								<td>NAND</td>
+								<td>↑</td>
+								<td> !((${valor1}) && ${valor2}) </td>
+							</tr>
+						</table>
+						<p>
+							Gostaria de dar a devida atenção as funções XOR, NOR e NAND, já que elas foram as mais dificeis de "traduzir" já que elas não existem por natureza no javascript. Depois de muita pesquisa conseguimos traduzir elas utilizando elementos que ja existem como AND e OR.
+						</p>
+						<div class="text-center">
+							<img style="height: auto;  width: 100%;" src="img/fn-9.png">
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>
+							Agora iremos para a última função <strong>calcularLinha(linha)</strong>, ela é essencial para o encerramento do script, a partir do metodo eval de javascript ela converte uma string em um valor real, retornando true pra quando for 0 && 0, e false quando for 0 && 1, e assim por diante, se não fosse por essa simples linha, esse script inteiro não seria possível.
+						</p>
+						<a href="table.html" class="btn">Ir para a tabela</a>
+						<a href="index.html" class="btn">Voltar para home</a>
+					</div>
+					<div class="col-12 col-md-8">
+						<img style="height: auto;  width: 100%;" src="img/fn-10.png">
+					</div>
+				</div>
+				
+			
+		</section>
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h3>Trabalho realizado por: Beatriz, Edurado, Edy, Kevin e Roberto.</h3>	
+					</div>
+				</div>
+			</div>
+		</section>
+					
+		<script src="script.js"></script>
+	</body>
+</html>

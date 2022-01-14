@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+header {
+	background: #F2F2F2;
+	height: 120px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding-top: 20px;
+	margin-bottom: 54px;
+}
+header h1{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #EE3A43;
+}
+header img{
+	width: 123px;
+	height: 89px;
+	margin-left: 55%;
+	margin-right: 0;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.footer{
+	background: #F2F2F2;
+	width: 100%;
+	height: 85px;
+	padding: 18px 0;
+	margin-top: 50px;
+}
+.footer h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #333333;
+}
+/* Página Home */
+
+.secHome h2{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #1C3F95;
+	margin-bottom: 12px;
+}
+.secHome p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #333333;
+}
+.secHome a{
+	text-decoration: none;
+}
+.btn-home{
+	width: 100%;
+	height: 390px;
+	background: #F2F2F2;
+	box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+.btn-home img{
+	width: 45%;
+	height: 50%;
+	position: relative;
+	top: 20%;
+}
+.btnDisc-home{
+	margin-top: 20px;
+	padding: 15px 15px;
+	width: 100%;
+	height: 88px;
+	background: #F2F2F2;
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+.btnDisc-home h3{
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #1C3F95;
+	align-self: center;
+	text-transform: uppercase;
+}
+
+/* calculadora */
+
+.secCalculadora{
+	padding-bottom: 50px;
+}
+.calculadora{
+	background-color: #333333;
+	box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 40px;
+	min-height: 675px;
+	padding: 38px 23px 38px 51px; 
+}
+.calculadora input {
+	background: #F2F2F2;
+	box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 18px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+}
+.calculadora .visor{
+	width: 100%;
+	box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	padding: 35px 0;
+	text-align: center;
+}
+.calculadora input[type=button]{
+	min-height: 75px;
+	width: 100%;
+	margin-top: 44px;
+}
+
+.tabela table {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+
+.tabela table thead {
+	font-weight: bold;
+}
+
+.tabela table td {
+	border: 4px solid #333333;
+	box-sizing: border-box;
+}
+
+/* Sobre Tabelas verdades */
+
+
+.sobreTV h2{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 37px;
+	color: #1C3F95;
+}
+.sobreTV a{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #000000;
+	text-transform: uppercase;
+}
+.sobreTV a img{
+	height: auto;
+	width: auto;
+	margin-bottom: 0;
+}
+.sobreTV img{
+	height: 261px;
+	margin-bottom: 35px;
+	width: 100%;
+}
+.sobreTV table{
+	width: 100%;
+	text-align: center;
+	border: 2px solid black;
+}
+.sobreTV table th,
+.sobreTV table tr,
+.sobreTV table td{
+	border: 2px solid black;
+	padding: 5px 0;
+}
+a.btn{
+	background-color: #1C3F95;
+	color: #FFFFFF;
+	padding: 5px 7px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+
+
+/* Media Queres */
+
+@media(max-width: 1200px){
+	header img{
+		margin-left: 35%;
+	}
+}
+@media(max-width: 768px){
+	header img{
+		display: none;
+	}
+}

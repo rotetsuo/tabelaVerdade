@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Tabela Verdade</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<a href="index.html" style="text-decoration: none;">
+						<h1>Tabela Verdade</h1>						
+					</a>
+					<img src="img/ucdbLogo.png">
+				</div>
+			</div>
+
+		</header>
+
+		<section class="secCalculadora">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-5 calculadora">
+						<div class="row">
+							<div class="col-12">
+								<input id="calcInput" class="visor" type="text" name="exemplo" disabled />
+							</div>
+							<div class="col-4">
+								<input id="btn1" type="button" data-uk-tooltip title="Argumento A" value="A" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn2" type="button" data-uk-tooltip title="Argumento B" value="B" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn3" type="button" data-uk-tooltip title="Argumento C" value="C" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn4" type="button" data-uk-tooltip title="Argumento D" value="D" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn5"  type="button" data-uk-tooltip title="AND" value="." onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn6"  type="button" data-uk-tooltip title="OR" value="v" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn10" type="button" data-uk-tooltip title="XOR" value="⊻" onclick="input(this)" />
+							</div>
+							<div class="col-4">
+								<input id="btn11" type="button" data-uk-tooltip title="NOR" value="↓" onclick="input(this)" />
+							</div>
+							<div class="col-4">
+								<input id="btn12" type="button" data-uk-tooltip title="NAND" value="↑" onclick="input(this)" />
+							</div>
+							<div class="col-4">
+								<input id="btn7"  type="button" data-uk-tooltip title="Bicondicional" value="<-|->" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn8" type="button" data-uk-tooltip title="Abre parênteses" value="(" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn9" type="button" data-uk-tooltip title="Fecha parênteses" value=")" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btn10" type="button" data-uk-tooltip title="negacao" value="~" onclick="input(this);" />
+							</div>
+							<div class="col-4">
+								<input id="btnDel" style="background-color: #EE3A43;" type="button" value="DEL" onclick="apagar();" />
+							</div>
+							<div class="col-4">
+								<input id="btnLim" style="background-color: #EE3A43;" type="button" value="Limpar" onclick="limpar();" />
+							</div>
+						</div>
+
+					</div>
+					<div class="col-12 col-md-5 offset-md-1 tabela">
+						<h2>Resultados</h2>
+						<div id="tabelaVerdade" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<a href="learning.html" class="btn">Ir para a documentação</a>
+						<a href="index.html" class="btn">Voltar para home</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h3>Trabalho realizado por: Beatriz, Edurado, Edy, Kevin e Roberto.</h3>	
+					</div>
+				</div>
+			</div>
+		</section>
+        
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+Projeto Desenvolvido por:
+Roberto
+Kevin
+Beatriz
+Eduardo
+Edy
+
+---------------------- INSTRUÇÕES INICIAIS ---------------
+
+1) Dar duplo clique no arquivo index.html, ele abrira o menu principal do projeto, que o guiara para as outras paginas (caso não funcione, arraste até a barra de navegação de seu navegador que abrira).
+
+2) Para verificar as funções abrir o arquivo script.js (recomendamos utilizar o editor de texto sublime text para abri-lo)
+
+3) Para verificar a estrutura do site abrir os arquivos .html (tambem recomendamos o editor sublime text)
+
+4) Para acessar o video é possível pelo site, na documentação oficial, mas caso não consiga acessar aqui esta o link:
+https://www.youtube.com/watch?v=0v4jcKvbn08
